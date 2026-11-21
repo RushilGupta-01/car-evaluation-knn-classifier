@@ -31,8 +31,8 @@ This is a supervised, multi-class classification problem. Each car is described 
 
 ## How To Run 🔃
 # 1. Clone the repo
-git clone (https://github.com/RushilGupta-01/car-evaluation-knn-classifier/tree/main)
-
+git clone [(https://github.com/RushilGupta-01/car-evaluation-knn-classifier/tree/main)
+](https://github.com/RushilGupta-01/car-evaluation-knn-classifier.git)
 # 2. Install dependencies
 pip install pandas numpy scikit-learn
 
