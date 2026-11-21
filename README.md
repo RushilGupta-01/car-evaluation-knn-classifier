@@ -8,9 +8,9 @@ This is a supervised, multi-class classification problem. Each car is described 
 <img width="374" height="177" alt="image" src="https://github.com/user-attachments/assets/21011b10-2d0d-4903-a67b-19d978513f21" />
 
 ## 💻Tech Stacks:
-* **Python
-* **Pandas
-* **Scikit-Learn
+* Python
+* Pandas
+* Scikit-Learn
 
 ## Approach 🏃
 1. Load the data with pandas (car.data).
