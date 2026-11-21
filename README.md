@@ -1,4 +1,4 @@
-# car-evaluation-knn-classifier
+# car-evaluation-knn-classifier 🚗
 Classifying car acceptability with K-Nearest Neighbors using Python, pandas and scikit-learn.
 
 My first machine learning project. It predicts whether a car is unacceptable, acceptable, good or very good using the K-Nearest Neighbours (KNN) algorithm.
@@ -7,12 +7,12 @@ This is a supervised, multi-class classification problem. Each car is described 
 <img width="377" height="167" alt="image" src="https://github.com/user-attachments/assets/7b2eeb27-28ea-474d-9fc0-3b06c18c4821" />
 <img width="374" height="177" alt="image" src="https://github.com/user-attachments/assets/21011b10-2d0d-4903-a67b-19d978513f21" />
 
-## Tech Stacks:
+## 💻Tech Stacks:
 * **Python
 * **Pandas
 * **Scikit-Learn
 
-## Approach
+## Approach 🏃
 1. Load the data with pandas (car.data).
 2. Select features. Currently buying, maint and safety [update this if you use more].
 3. Encode categories as numbers with a hand-made, ordered mapping:
@@ -22,14 +22,14 @@ This is a supervised, multi-class classification problem. Each car is described 
 6. Train a KNeighborsClassifier.
 7. Evaluate accuracy on the unseen test set.
 
-
-## What I learned
+ 
+## What I learned 🧠
 - Models work with numbers, so text categories have to be encoded, and the order of the numbers matters for distance-based models like KNN.
 - Accuracy needs a baseline. 75% looked fine until I compared it with the 70% I would get from always guessing the most common class.
 - random_state makes the train/test split repeatable, so results can be compared fairly.
 - Debugging data types (object vs int) and NaN values from a mismatched mapping is a big part of the work.
 
-## How To Run
+## How To Run 🔃
 # 1. Clone the repo
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
